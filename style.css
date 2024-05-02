@@ -29,6 +29,10 @@ nav {
   padding: 1rem 0;
   margin-bottom: 3rem;
 }
+nav span span {
+  font-weight: 600;
+}
+
 #image {
   display: block;
   color: rgba(8, 8, 8, 0.4);
@@ -44,6 +48,10 @@ nav {
 #link {
   color: rgb(17, 140, 140);
 }
+#featured span {
+  color: #ce5011;
+  display: block;
+}
 
 .break {
   border-bottom: 1px solid rgb(179, 217, 217);
@@ -52,4 +60,12 @@ nav {
 .ingredients p,
 ol li p:first-of-type {
   font-weight: bold;
+}
+
+h2 {
+  font-weight: 800;
+}
+.content video {
+  width: 100%;
+  border-radius: 10px;
 }
