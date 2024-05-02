@@ -40,3 +40,16 @@ nav {
   padding-left: 1rem;
   margin-top: 1.2rem;
 }
+#featured a,
+#link {
+  color: rgb(17, 140, 140);
+}
+
+.break {
+  border-bottom: 1px solid rgb(179, 217, 217);
+  margin-bottom: 1.2rem;
+}
+.ingredients p,
+ol li p:first-of-type {
+  font-weight: bold;
+}
